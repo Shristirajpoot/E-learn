@@ -1,81 +1,146 @@
+# 🎓 E-learn – Empowering Education, Digitally! 💻  
+> A feature-rich online learning platform made with ❤️ using the MERN Stack (MongoDB, Express, React, Node.js).
 
-# Online Learning Platform
+![GitHub Repo stars](https://img.shields.io/github/stars/Shristirajpoot/E-learn?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/Shristirajpoot/E-learn?color=brightgreen)
+![Built with](https://img.shields.io/badge/Built%20with-MERN%20Stack-blue)
 
-Online Learning Platform using MERN Stack
+---
 
-## Objective:
+## 🌟 Overview
 
-Develop a comprehensive online learning platform with three user types (Student, Teacher, Admin), featuring course creation, approval process, and live video conferencing.
+**E-learn** is a complete and interactive online learning platform that supports **Students**, **Teachers**, and **Admins**. It offers features like course browsing, creation, approvals, messaging, live video classes, and secure payments. Built to replicate real-world e-learning systems, it showcases strong frontend, backend, and full-stack capabilities.
 
+---
 
+## 🎯 Features
 
-## Features
-![Screenshot 2024-05-14 212028](https://github.com/Pika003/e-Learning-Platform/assets/104189733/e2f9ce48-764b-48d2-8af1-188ea2918e8c)
+![Main Overview](https://github.com/Pika003/e-Learning-Platform/assets/104189733/e2f9ce48-764b-48d2-8af1-188ea2918e8c)
 
+---
 
-#### 1. *User Authentication:*
-   - Student Login
-   - Teacher Login
-   - Admin Login
+### 🔐 1. User Authentication
 
-     ![Screenshot 2024-05-14 211251](https://github.com/Pika003/e-Learning-Platform/assets/104189733/3179ba23-ae52-4ab5-8d0a-b2891cc43e0f)
+- Separate login for:
+  - 👩‍🎓 Students
+  - 👨‍🏫 Teachers
+  - 🛡️ Admins
 
-![Screenshot 2024-05-14 211154](https://github.com/Pika003/e-Learning-Platform/assets/104189733/377d8aa0-c35b-46d0-9408-f18b6ecb1ac1)
+| Student Login | Admin Login |
+|---------------|-------------|
+| ![Student Login](https://github.com/Pika003/e-Learning-Platform/assets/104189733/3179ba23-ae52-4ab5-8d0a-b2891cc43e0f) | ![Admin Login](https://github.com/Pika003/e-Learning-Platform/assets/104189733/377d8aa0-c35b-46d0-9408-f18b6ecb1ac1) |
 
-#### 2. *Application Approval:*
-   - Students and teachers can submit applications for approval.
-   - Admin validates and approves applications.
+---
 
-     ![Screenshot 2024-05-15 212149](https://github.com/Pika003/e-Learning-Platform/assets/104189733/6e8afdba-a8a5-47e3-977c-f5292e136c3f)
+### 📝 2. Application Approval Flow
 
+- Students and Teachers apply for account access.
+- Admin validates and approves the applications.
 
-#### 3. *Dashboard:*
-   - Students see purchased courses, progress, and communication options.
-   - Teachers view created courses, student enrollments, and communication features.
+![Application Approval](https://github.com/Pika003/e-Learning-Platform/assets/104189733/6e8afdba-a8a5-47e3-977c-f5292e136c3f)
 
-     
-![Screenshot 2024-05-14 211938](https://github.com/Pika003/e-Learning-Platform/assets/104189733/1008e68d-b683-4e8a-bc85-6d5890946724)
-![Screenshot 2024-05-14 211854](https://github.com/Pika003/e-Learning-Platform/assets/104189733/c857a214-5366-49db-8035-13d2bfb88396)
-#### 4. *Course Purchase:*
+---
 
-   - Students can browse and buy courses on the platform.
-     
-![Screenshot 2024-05-14 211813](https://github.com/Pika003/e-Learning-Platform/assets/104189733/1578ca04-b85d-4c7b-8875-12f6756f2621)
+### 📊 3. Personalized Dashboards
 
-#### 5. *Live Video Conferencing:*
-   - Integrated video conferencing tool (similar to Google Meet) for real-time teacher-student interaction.
+- **Students**: View enrolled courses, track progress, and message instructors.
+- **Teachers**: Manage created courses, view enrollments, and respond to messages.
 
-#### 6. *Communication:*
-   - In-platform messaging system for communication between teachers and students.
+| Student Dashboard | Teacher Dashboard |
+|------------------|-------------------|
+| ![Student Dashboard](https://github.com/Pika003/e-Learning-Platform/assets/104189733/1008e68d-b683-4e8a-bc85-6d5890946724) | ![Teacher Dashboard](https://github.com/Pika003/e-Learning-Platform/assets/104189733/c857a214-5366-49db-8035-13d2bfb88396) |
 
-#### 7. *Payment Integration:*
-   - Integrate a secure payment gateway for course purchases.
+---
 
-----
+### 🛒 4. Course Purchase
 
+- Browse, explore, and securely purchase premium courses.
 
-## *Tech Stack:*
+![Course Purchase](https://github.com/Pika003/e-Learning-Platform/assets/104189733/1578ca04-b85d-4c7b-8875-12f6756f2621)
 
-#### *UI/UX:*
-  - [figma](https://www.figma.com/file/6b4R8evBkii6mI53IA4vSS/Online-Learning-Platform?type=design&node-id=0-1&mode=design&t=HBUPk2hRYW3ioAUj-0) 
-  - Dribbble
+---
 
-#### *Frontend:*
-  - React (Vite) for dynamic and responsive UI.
+### 🎥 5. Live Video Conferencing
 
-#### *Backend:*
-  - Node.js, Express and Mongoose for server-side development.
+- Teachers and Students can interact in real-time using:
+  - Google Meet links
+  - OR integrated WebRTC setup
 
-#### *Database:*
-  - MongoDB for storing user profiles, course details, and application data.
+---
 
-#### *Authentication:*
-  - JWT (JSON Web Tokens) for secure authentication.
+### 💬 6. In-App Messaging
 
-#### *Video Conferencing:*
-  - Integrate WebRTC for real-time video communication.
-  - Or just using google meet link
+- Seamless communication between students and instructors within the platform.
 
-#### *Payment Integration:*
-  - Stripe or PayPal or razorpay for secure and seamless payments
+---
 
+### 💳 7. Payment Integration
+
+- Integration-ready for:
+  - 💰 Stripe
+  - 💰 Razorpay
+  - 💰 PayPal
+
+To securely handle course payments and transactions.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React.js (Vite) |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB, Mongoose |
+| **Authentication** | JWT (JSON Web Tokens) |
+| **UI/UX** | Figma, Dribbble |
+| **Video Conferencing** | Google Meet / WebRTC |
+| **Payment Integration** | Stripe, PayPal, Razorpay |
+
+🎨 [View Figma Design](https://www.figma.com/file/6b4R8evBkii6mI53IA4vSS/Online-Learning-Platform?type=design&node-id=0-1&mode=design)
+
+---
+
+## 📂 Folder Structure
+
+```plaintext
+E-learn/
+├── frontend/         # React frontend (Vite)
+│   ├── components/
+│   ├── pages/
+│   └── App.jsx
+│
+├── backend/          # Express backend
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── .vscode/
+├── package.json
+├── README.md
+└── .gitignore
+```
+## 🚀 Getting Started
+### 🔧 Backend Setup
+```bash
+cd backend
+npm install
+npm run dev
+```
+### 🌐 Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Make sure MongoDB is running locally or via cloud (MongoDB Atlas) and .env files are configured.
+
+## 👩‍💻 Author
+### Shristi Rajpoot
+- 📧 Email: shristirajpoot369@gmail.com
+- 🔗 GitHub: @Shristirajpoot
+
+## 📄 License
+This project is licensed under the MIT License.
+
+### 🌟 If you liked this project, consider starring the repo and sharing it!
